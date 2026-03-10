@@ -73,6 +73,8 @@ Technical implementation:
 
 The navigation bar collapses into a hamburger menu on smaller screens, which improves usability on mobile devices.
 
+![Home Page](images/homepage.jpg)
+
 ### Student Life Page (Main Responsibility)
 
 This page introduces campus activities and student experiences.
@@ -88,6 +90,8 @@ Technical skills used:
 - Bootstrap responsive layout
 
 The goal of this page was to make the information easy to read and visually organized.
+
+![Student Life](images/student_life.jpg)
 
 ### Personal Portfolio Page
 
@@ -108,6 +112,8 @@ Page sections include:
 - Contact Information
 
 This page helped me practice building a profile-style web page layout.
+
+![Portfolio](images/LanJen_portfolio.jpg)
 
 ## Skills Practiced in This Project
 
