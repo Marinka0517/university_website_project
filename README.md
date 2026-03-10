@@ -2,7 +2,7 @@
 
 This is a fictional university website project that I built with my classmates.
 
-The goal of this project was to practice building a **multi-page responsive website** using HTML, CSS, JavaScript, and Bootstrap.
+The goal of this project was to practice building a **multi-page responsive website** using **HTML, CSS, JavaScript, and Bootstrap**.
 
 In this project, each student was responsible for different pages of the website.
 
@@ -15,21 +15,21 @@ https://marinka0517.github.io/university_website_project/
 
 ## Key Features
 
-- Responsive navigation bar using Bootstrap
-- Multi-page website structure
-- Personal portfolio profile page
+- **Responsive navigation bar** using Bootstrap
+- **Multi-page website structure**
+- **Personal portfolio profile page**
 - Responsive layout for mobile, tablet, and desktop
-- Layout planning using a hand-drawn UI sketch
+- Layout planning using a **hand-drawn UI sketch**
 
 ## My Role in the Project
 
 In this team project, I participated in several parts of the website development.
 
 My main contributions include:
-- Designing layout ideas for the homepage  
-- Implementing the Student Life page
-- Creating my own portfolio page inside the Deans List  
-- Adjusting layout, spacing, and visual styling for some sections  
+- Designing **layout ideas for the homepage**  
+- Implementing the **Student Life page**
+- Creating my **own portfolio page** inside the Deans List  
+- Adjusting **layout, spacing, and visual styling** for some sections  
 
 Before starting development, I also sketched the homepage layout to help organize the structure of the website.
 
@@ -61,9 +61,9 @@ This planning step helped me decide how to structure the HTML layout and how to 
 For the homepage, I helped organize the visual layout and page structure.
 
 What I contributed:
-- helped decide the page layout structure
-- worked on content placement and spacing
-- adjusted some visual styling and alignment
+- helped decide the page **layout structure**
+- worked on **content placement and spacing**
+- adjusted some **visual styling and alignment**
 
 Technical implementation:
 - Bootstrap responsive navigation bar
@@ -79,9 +79,9 @@ The navigation bar collapses into a hamburger menu on smaller screens, which imp
 This page introduces campus activities and student experiences.
 
 What I implemented:
-- structured content sections using HTML
-- layout styling using CSS
-- organized images and text to create a clean layout
+- structured content sections using **HTML**
+- layout styling using **CSS**
+- **organized images and text** to create a clean layout
 
 Technical skills used:
 - HTML page structure  
@@ -117,12 +117,12 @@ This page helped me practice building a profile-style web page layout.
 ## Skills Practiced in This Project
 
 Through this project, I practiced the following skills:
-- HTML page structure  
-- CSS layout design  
-- Bootstrap responsive design  
-- Navigation bar implementation  
-- Multi-page website structure  
-- Basic UI layout planning
+- **HTML** page structure  
+- **CSS** layout design  
+- **Bootstrap** responsive design  
+- **Navigation bar** implementation  
+- **Multi-page website** structure  
+- Basic **UI layout** planning
 
 ## Technologies Used
 
@@ -144,9 +144,9 @@ javascript.js — JavaScript functionality
 ## What I Learned
 
 From this project I learned how to:
-- organize a multi-page website  
-- work with teammates on web development  
-- design page layouts before coding  
-- use Bootstrap to create responsive web pages
+- organize a **multi-page website**  
+- **work with teammates** on web development  
+- **design page layouts** before coding  
+- use **Bootstrap** to create responsive web pages
 
-This project helped me understand how front-end web development works in a team environment.
+This project helped me understand how **front-end web development** works in a **team environment**.
