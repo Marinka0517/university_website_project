@@ -8,11 +8,10 @@ In this project, each student was responsible for different pages of the website
 
 I mainly worked on the Student Life page, my personal portfolio page, and helped with homepage layout design and styling.
 
-## Demo
+## Live Demo
 
-This project is a front-end website prototype and can be opened directly in a browser by running:
-
-index.html
+You can view the website here:
+https://marinka0517.github.io/university_website_project/
 
 ## Key Features
 
