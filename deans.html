@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/owl.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Southern Hogwarts University: Deans</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Use bootstrap nav classes and stop displaying burger when screen is at large breakpoint -->
+    <nav class="navbar navbar-expand-md shu-navbar sticky-top">
+        <a class="navbar-brand shu-brand" href="index.html">
+            <img src="images/logo.png" alt="Southern Hogwarts University" class="shu-nav-logo">
+        </a>
+
+        <!-- Hamburger icon from bootstrap -->
+        <button class="navbar-toggler navbar-dark shu-hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#shu-navbar-content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="shu-navbar-content">
+            <ul class="navbar-nav shu-nav-links">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deans.html">Deans List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="student_life.html">Student Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="areas_of_study.html">Study Pathways</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header with inline logo-->
+    <header>
+        <h1 class="dean-page-heading">Deans of <img style="height: 3.5rem;" class="homepage-inlinelogo-h1" src="images/logoInline.png" alt="SHU"></h1>
+    </header>
+    <main class="dean-container">
+        <section>
+            <ul class="dean-list" id="dean-list">
+                <!--All dean cards including from other pages -->
+                <!-- Dean card for Riley -->
+                <li class="deanlist-item">
+                    <a class="dean-link" href="portfolios/Riley.html">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/riley.jpg" alt="Photo of Riley McCurdy">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Riley McCurdy</h3>
+                                <p class="dean-description">Dean of Arcane</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- Dean card for May -->
+                <li class="deanlist-item">
+                    <a class="dean-link" href="portfolios/May.html">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/MAY-portfolio.jpg" alt="Photo of May Miura">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. May Miura</h3>
+                                <p class="dean-description">Dean of Thunder and Light</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- Dean card for Brayden -->
+                <li class="deanlist-item">
+                    <a class="dean-link" href="portfolios/Brayden.html">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/brayden.jpg" alt="Photo of Brayden Peterson">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Brayden Peterson</h3>
+                                <p class="dean-description">Dean of Ghoul Studies</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- Dean card for Lanjen -->
+                <li class="deanlist-item">
+                    <a class="dean-link" href="portfolios/Lanjen.html">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/lanjen.jpg" alt="Photo of Lanjen Hsieh">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Lanjen Hsieh</h3>
+                                <p class="dean-description">Dean of Water</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!-- FORMER DEANS FOR JAVASCRIPT REQUIREMENT-->
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Dianne Rott</h3>
+                                <p class="dean-description">Ex-Dean of Arcane</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Izzy Gone</h3>
+                                <p class="dean-description">Ex-Dean of Thunder and Light</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Yule B. Nekst</h3>
+                                <p class="dean-description">Ex-Dean of Ghoul Studies</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Barry Da'Live</h3>
+                                <p class="dean-description">Ex-Dean of Water</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Merle Ambrose</h3>
+                                <p class="dean-description">Ex-Dean of Ravenwood Magic</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Cyrus Drake</h3>
+                                <p class="dean-description">Ex-Dean of Death</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Malistaire Drake</h3>
+                                <p class="dean-description">Ex-Dean of Death</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="deanlist-item">
+                    <a class="dean-link">
+                        <div class="dean-card">
+                            <img class="dean-photo" src="images/gravestone.jpg" alt="Gravestone">
+                            <div class="dean-info">
+                                <h3 class="dean-name">Dr. Velma von Venkman</h3>
+                                <p class="dean-description">Ex-Dean of Shadow</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!--Pagination buttons-->
+            <div class="deans-dean-pagination" id="deans-paginate">
+                <a href="#" class="deans-pagination-link" data-pageNum="1">1</a>
+                <a href="#" class="deans-pagination-link" data-pageNum="2">2</a>
+                <a href="#" class="deans-pagination-link" data-pageNum="3">3</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-grid mobile-footer">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <a href="index.html" class="footer-link">Home</a>
+                <a href="deans.html" class="footer-link">Deans List</a>
+                <a href="sports.html" class="footer-link">Sports</a>
+                <a href="student_life.html" class="footer-link">Student Life</a>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <a href="areas_of_study.html#applicationForm" class="footer-link">Apply</a>
+                <a href="areas_of_study.html" class="footer-link">Study Pathways</a>
+            </div>
+            <div class="footer-section">
+                <h3>Faculty / Staff</h3>
+                <a href="portfolios/Brayden.html" class="footer-link">Dr. Brayden Peterson</a>
+                <a href="portfolios/Lanjen.html" class="footer-link">Dr. Lanjen Hsieh</a>
+                <a href="portfolios/May.html" class="footer-link">Dr. May Miura</a>
+                <a href="portfolios/Riley.html" class="footer-link">Dr. Riley McCurdy</a>
+            </div>
+            <div class="footer-section">
+                <img src="images/logo.png" alt="Southern Hogwarts University Logo" class="footer-logo">
+                <!-- This is a fake address I came up with, the zip code spells MAGIC on a telephone keypad and Hogsmeade is a small village near Hogwarts in the Harry Potter universe-->
+                <p>314 Dementor Lane, Hogsmeade, UK 62442</p>
+            </div>
+        </div>
+        <p class="footer-page-credit">Deans page created by <a href="portfolios/Brayden.html">Brayden Peterson</a></p>
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
